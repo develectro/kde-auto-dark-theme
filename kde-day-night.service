@@ -1,0 +1,9 @@
+[Unit]
+Description=Switches KDE Plasma theme between day and night modes
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/kde-day-night/kde-day-night.sh
+
+[Install]
+WantedBy=default.target

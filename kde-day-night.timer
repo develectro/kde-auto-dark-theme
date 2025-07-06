@@ -1,0 +1,11 @@
+[Unit]
+Description=Run KDE Day/Night theme switcher periodically
+
+[Timer]
+# Run 5 minutes after boot/login, and every 15 minutes thereafter
+OnBootSec=5min
+OnUnitActiveSec=15min
+Unit=kde-day-night.service
+
+[Install]
+WantedBy=timers.target
