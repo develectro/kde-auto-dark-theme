@@ -10,6 +10,11 @@ This project uses a simple shell script that is executed periodically by a `syst
 -   **`kde-day-night.service`**: A `systemd` user service that runs the shell script.
 -   **`kde-day-night.timer`**: A `systemd` user timer that triggers the service every 15 minutes.
 
+## Remember:
+
+- if you use custome theme or setup this tool may not be a better choice
+
+
 ## Prerequisites
 
 -   A Linux distribution with KDE Plasma 5.
