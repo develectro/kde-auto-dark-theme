@@ -1,6 +1,5 @@
 # KDE Day/Night Mode Automator
 
-
 Automatically switches your KDE Plasma Global Theme between a light and dark variant based on the time of day.
 
 ## How It Works
